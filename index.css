@@ -1,0 +1,173 @@
+ body, html{
+
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+
+ }
+ #ui{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+ }
+ .menu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-sizing: content-box;
+    border: solid #d6d4e2 3px;
+    flex-direction: column;
+ }
+ header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #d6d4e2;
+ }
+ #logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+ }
+ #user{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #d6d4e2;
+
+ }
+ #foto{
+    margin-left: 10%;
+
+ }
+#nome{
+    margin-left: 6%;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    flex-direction: column;
+    gap: 10%;
+
+}
+#secao{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    margin-left: 10%;
+    
+    gap: 10%;
+    font-size: 130%;
+    
+    align-items: center;
+    
+}
+@media screen and (max-width: 900px ) {
+   body, html{
+
+   
+      height: 100%;
+      width: 100%;
+      display: flex;
+  
+  
+   }
+   #ui{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      
+   }
+   .menu{
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: #ffffff;
+      box-sizing: content-box;
+      border: solid #d6d4e2 3px;
+      flex-direction: column;
+   }
+   header {
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 3px solid #d6d4e2;
+   }
+   #logo{
+      width: 100%;
+      height: 100%;
+      display: flex;
+
+  
+   }
+   #user{
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 3px solid #d6d4e2;
+  
+   }
+   #foto{
+      margin-left: 10%;
+  
+   }
+  #nome{
+      margin-left: 6%;
+      display: flex;
+      width: 300px;
+      height: 40px;
+      flex-direction: column;
+      gap: 10%;
+      font-size: 14px;
+  
+  }
+  #secao{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      font-size: 14px;
+      
+      
+  }
+  .opcoes{
+      display: flex;
+      flex-direction: row;
+      height: 15%;
+      width: 100%;
+      margin-left: 10%;
+      
+      gap: 10%;
+      font-size: 130%;
+      
+      align-items: center;
+}
